@@ -1,0 +1,28 @@
+/* Buttons
+*
+-----------------------*/
+.btn-videos360{
+    @extend .btn-primary;
+    background-color: $videos360-red !important;
+	border-color: $videos360-red;
+    &:hover, &:focus, &.focus, &:active, &.active{
+        background-color: darken($videos360-red, 5%) !important;
+    }
+}
+.btn-outline-white{
+    @extend .btn-outline-primary;
+    border-color: white;
+    color: white;
+    &:hover, &:focus, &.focus, &:active, &.active{
+        background-color: white !important;
+        color: $videos360-red !important;
+    }
+}
+.btn{
+    h6{
+        color: white;
+        margin-bottom: 0px;
+		font-size: 125%;
+		font-weight: bold;
+    }
+}

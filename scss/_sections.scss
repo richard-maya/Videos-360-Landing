@@ -1,0 +1,67 @@
+/* Sections
+*
+-----------------------*/
+section#intro{
+	background: transparent;
+	position: relative;
+	
+	color: white;
+	
+	h1{
+		color: white;
+	}
+	
+	iframe{
+		border-radius: 10%;
+	}
+}
+
+section#services{
+	background: transparent;
+	min-height: 50vh;
+
+	p{
+		color: white;
+	}
+}
+
+section#call-outs{
+	background: transparent;
+	min-height: 50vh;
+	
+	li{
+		font-size: 110%;
+	}
+}
+
+section#contact{
+	background: transparent;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right bottom;
+	
+	h6{
+		color: #202020;
+	}
+
+	label{
+		color: white;
+	}
+	
+	select{
+		border-radius: 0px !important;
+	}
+}
+
+section#thanks-videos360{
+	background-image: url(../assets/videos360/virtual-reality-headset.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	
+	h1,p{
+		color: white;
+	}
+}
